@@ -15,20 +15,11 @@ var gulp = require('gulp'),
     coffee = require('gulp-coffee'),
     concat = require('gulp-concat'),
     streamqueue = require('streamqueue'),
-    filter = require('gulp-filter')
+    filter = require('gulp-filter'),
+    deploy = require('gulp-gh-pages');
     nib = require('nib');
 
 ;
-/*
- * Создаём задачи 
- *
- * stylus – для CSS-препроцессора Stylus
- * jade – для HTML-препроцессора Jade
- * coffee – для JavaScript-препроцессора CoffeеScript
- * concat – для склейки всех CSS и JS в отдельные файлы
- */
-
-
 gulp.task('jade', ["yaml"], function(){
   console.log("jade");
   jsonData = combineJSONFiles("./src/tmp/data");
@@ -42,15 +33,6 @@ gulp.task('jade', ["yaml"], function(){
     .pipe(gulp.dest('./out/')) // Выводим сгенерированные HTML-файлы в ту же папку по тем же именем, но с другим расширением
     .pipe(livereload()); // Перезапускаем сервер LiveReload
 });
-
-// gulp.task('bower', function() {
-//   gulp.src(mainBowerFiles())
-//   .pipe(plugins.filter('*.js'))
-//   .pipe( doing something with the JS scripts )
-//   .pipe(gulp.dest(dest + 'js'));
-
-//     .pipe(gulp.dest('./out/assets/lib'))
-// });
 
 gulp.task('scripts',function(){
   streamqueue({ objectMode: true },
@@ -97,18 +79,7 @@ gulp.task('styles', function() {
   .pipe(livereload());
 });
 
-// gulp.task('concat', function(){
-//   gulp.task('coffee');
-//  gulp.src('./public/js/*.js')
-//    .pipe(concat('scripts.js'))
-//     .pipe(gulp.dest('./public/min/'))
-//    .pipe(livereload());
-//   gulp.task('styl');
-//  gulp.src('./public/css/*.css')
-//    .pipe(concat('styles.css'))
-//     .pipe(gulp.dest('./public/min/'))
-//    .pipe(livereload());
-// });
+
 gulp.task('fonts', function() {
     gulp.src('./src/assets/f/**/*.{ttf,woff,eot,svg}')
     .pipe(gulp.dest('./out/assets/f/'));
@@ -127,10 +98,7 @@ gulp.task('yaml',function(){
       .pipe(gulp.dest('./src/tmp/data'));
 });
 
-/*
- * Создадим веб-сервер, чтобы работать с проектом через браузер
- */
- gulp.task('server', function() {
+gulp.task('server', function() {
     connect()
       .use(require('connect-livereload')())
       .use(serveStatic(__dirname + '/out'))
@@ -138,26 +106,23 @@ gulp.task('yaml',function(){
     console.log('Сервер работает по адресу http://localhost:8080');
 });
 
-
- /*
-  * Создадим задачу, смотрящую за изменениями
-  */
  gulp.task('watch', function(){
       livereload.listen();
 
-      // gulp.watch('./styl/*.styl',['stylus']);
       gulp.watch(['src/blocks/**/*.jade', 'src/layouts/*.jade', 'src/*.jade' ] ,['jade']);
       gulp.watch('src/data/*.yaml',['jade']);
-      // gulp.watch('./src/assets/i/**/*',['imagemin']);
-
       gulp.watch([ 'src/blocks/**/*.coffee', 'src/assets/scripts/*.coffee' ],['scripts']);
       gulp.watch([ 'src/blocks/**/*.styl', 'src/assets/styles/*.styl' ],['styles']);
-      // gulp.watch(['./public/js/*.js','./public/css/*.css'],['concat']);
       gulp.start('server');
   });
-
- // gulp.task('default',['watch','stylus','jade','coffee','concat','imagemin']);
  gulp.task('default',['watch', 'jade', 'imagemin', "scripts", "styles", "fonts" ]);
+
+gulp.task('deploy', function () {
+  return gulp.src("./out/**/*")
+    .pipe(deploy())
+});
+
+
 
 function combineJSONFiles(dir) {
     var files = fs.readdirSync(dir),
@@ -168,3 +133,5 @@ function combineJSONFiles(dir) {
     };
     return data;
 }
+
+
