@@ -1,0 +1,47 @@
+extends ./layouts/root
+
+block root
+	.container
+		main.main
+			section
+				.main-info
+					include ./blocks/main-info/main-info
+			hr.separator
+			section.section
+				h1.section__title #[span.icon.icon-summary] Summary
+				.summary
+					include ./blocks/summary/summary
+			hr.separator
+			section.section
+				h1.section__title #[span.icon.icon-case] Projects
+				.projects
+					include ./blocks/projects/projects
+			hr.separator
+			section.section
+				h1.section__title #[span.icon.icon-tag] Hard skills
+				.programming-skills
+					include ./blocks/programming-skills/programming-skills
+			hr.separator
+			section.section
+				h1.section__title #[span.icon-gears] Soft skills
+				.soft-skills
+					include ./blocks/soft-skills/soft-skills
+			hr.separator
+			section.section
+				h1.section__title #[span.icon-chart] Work Experience
+				.experience
+					include ./blocks/experience/experience
+			hr.separator
+			section.section
+				h1.section__title #[span.icon.icon-world] Languages
+				.languages
+					include ./blocks/languages/languages
+			hr.separator
+			section.section
+				h1.section__title #[span.icon-cap] Education
+				.education
+					include ./blocks/education/education
+			
+		footer.footer
+			hr.separator
+			include ./blocks/footer/footer

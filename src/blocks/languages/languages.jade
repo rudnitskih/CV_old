@@ -1,0 +1,11 @@
+if languages
+	dl.languages__list
+		each item in languages
+			.languages__item
+				dt.languages__key 
+					span #{item.key}:
+				dd.languages__value
+					span.languages__level!= item.level
+					if item.description 
+						br
+						span.languages__description  (#{item.description})

@@ -1,0 +1,15 @@
+.main-info__column.main-info__column-left
+	hgroup.main-info__titles
+		h1.main-info__title Dmytro Rudnytskykh
+		h2.main-info__subtitle Frontend, JS Developer
+	if contactInfo && contactInfo.items
+		dl.main-info__list
+			each item, i in contactInfo.items
+				.main-info__item
+					dt.main-info__label #{item.key}:
+					dd.main-info__value!= item.value
+
+.main-info__column.main-info__column-right
+	if contactInfo.mainPhoto
+		.main-info__photo-container
+			img.main-info__photo(src=contactInfo.mainPhoto alt="")

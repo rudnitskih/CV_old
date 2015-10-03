@@ -1,0 +1,20 @@
+if education
+	dl.education__list
+	each item in education
+		.education__item
+			if item.duration
+				.education__info.education__info_years
+					dt.education__key Years: 
+					dd.education__value!= item.duration
+			if item.degree
+				.education__info
+					dt.education__key Degree: 
+					dd.education__value!= item.degree
+			if item.major
+				.education__info
+					dt.education__key Major: 
+					dd.education__value!= item.major
+			if item.almamater
+				.education__info
+					dt.education__key Alma mater: 
+					dd.education__value!= item.almamater

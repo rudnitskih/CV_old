@@ -1,0 +1,28 @@
+{
+  "name": "codemotion",
+  "version": "1.0.0",
+  "dependencies": {
+    "connect-livereload": "*",
+    "gulp": "*",
+    "gulp-jade": "*",
+    "gulp-stylus": "*",
+    "gulp-coffee": "*",
+    "gulp-livereload": "*",
+    "gulp-imagemin": "*",
+    "gulp-concat": "*",
+    "connect": "*",
+    "serve-static": "*",
+    "nib": "*",
+    "gulp-data": "*",
+    "gulp-yaml": "*",
+    "gulp-bower": "0.0.10",
+    "gulp-rigger": "~0.5.8",
+    "gulp-bower-files": "~0.2.7",
+    "merge-stream": "~1.0.0",
+    "main-bower-files": "~2.9.0",
+    "streamqueue": "~1.1.1"
+  },
+  "devDependencies": {
+    "gulp-filter": "~3.0.1"
+  }
+}

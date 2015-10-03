@@ -1,0 +1,16 @@
+if experience
+	each item in experience
+		.experience__item
+			.experience__column.experience__column_left
+				.experience__duration
+					span.experience__label Years: 
+					span.experience__value!= item.duration
+				.experience__company
+					span.experience__label Company: 
+					span.experience__value!= item.company
+				.experience__position
+					span.experience__label Position: 
+					span.experience__value!= item.position
+			.experience__column.experience__column_right
+				.experience__description 
+					p.experience__value!= item.description
