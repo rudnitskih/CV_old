@@ -9297,7 +9297,6 @@ $(function() {
       },
       sameHeight: function() {
         if (window.innerWidth > 768) {
-          console.log("project");
           return this.$tags.sameHeightHack();
         } else {
           return this.$tags.removeAttr("style");
