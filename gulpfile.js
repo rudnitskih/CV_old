@@ -132,7 +132,7 @@ function combineJSONFiles(dir) {
     for (var i in files) {
       data[ path.basename( files[i], ".json" )] = JSON.parse( fs.readFileSync( dir + "/" + files[i] ));
     };
-    console.log("finishedRead");
+    
     return data;
 }
 

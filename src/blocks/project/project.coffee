@@ -18,3 +18,5 @@ $ ->
 				@$tags.sameHeightHack()
 			else
 				@$tags.removeAttr "style"
+
+	block.init()
