@@ -1,0 +1,16 @@
+-
+  url: "//github.com/rudnitskih/SV"
+  title: Source on github
+  icon: github
+  target: _blank
+-
+  url: "/"
+  title: PDF version
+  icon: pdf
+  target: _self
+-
+  url: "/"
+  title: Word version
+  icon: doc
+  target: _self
+  

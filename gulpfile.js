@@ -22,10 +22,11 @@ var gulp = require('gulp'),
 ;
 gulp.task('jade', ["yaml"], function(){
   console.log("jade");
-  jsonData = combineJSONFiles("./src/tmp/data");
+  var jsonData = combineJSONFiles("./src/tmp/data");
+  console.log("startTask");
   gulp.src('./src/*.jade')
     .pipe(data( function(file) {
-      // console.log(combineJSONFiles("./src/tmp/data"));
+      // console.log(combineJSONFiles("./src/tmp/data"));\
       return jsonData;
     }))
     .pipe(jade({ pretty: true }))
@@ -59,7 +60,7 @@ gulp.task('styles', function() {
       .pipe(stylus({
         use: nib(),
         paths: ['node_modules', 'src/globals'],
-        import: ["nib", "variables"],
+        import: ["nib", "variables", "mixins"],
         compress: true,
         'include css': true
       }))
@@ -93,7 +94,7 @@ gulp.task('imagemin',function(){
 
 gulp.task('yaml',function(){
   console.log('yaml');
-   gulp.src('./src/data/*.yaml')
+  gulp.src('./src/data/*.yaml')
       .pipe(yaml())
       .pipe(gulp.dest('./src/tmp/data'));
 });
@@ -131,6 +132,7 @@ function combineJSONFiles(dir) {
     for (var i in files) {
       data[ path.basename( files[i], ".json" )] = JSON.parse( fs.readFileSync( dir + "/" + files[i] ));
     };
+    console.log("finishedRead");
     return data;
 }
 

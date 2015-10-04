@@ -1,5 +1,20 @@
 $ ->
-	$block = $(".project")
-	return unless $block.length
-	$block.find(".project__name").sameHeightHack()
-	$block.find(".project__tags").sameHeightHack()
+	block = 
+		init: (root = ":root") ->
+			@$block = $(root).find(".project")
+			return unless @$block.length
+			@cacheDom()
+			@bindEvents()
+			@sameHeight()
+
+		cacheDom: ->
+			@$tags = @$block.find(".project__tags")
+		
+		bindEvents: ->
+			$(window).on "resize", @sameHeight.bind(@)
+		
+		sameHeight: ->
+			if window.innerWidth > 768
+				@$tags.sameHeightHack()
+			else
+				@$tags.removeAttr "style"

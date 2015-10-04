@@ -1,0 +1,118 @@
+background-transparency(color, alpha = 1)
+	ms-color = argb(color, alpha)
+	background rgba(color, alpha)
+	zoom 1
+	filter s('progid:DXImageTransform.Microsoft.gradient(startColorstr=%s,endColorstr=%s)', ms-color, ms-color)
+
+hex(decimal)
+	hex-value = ('0') ('1') ('2') ('3') ('4') ('5') ('6') ('7') ('8') ('9') ('A') ('B') ('C') ('D') ('E') ('F')
+	unquote(hex-value[floor(decimal / 16)] + hex-value[floor(decimal % 16)])
+
+argb(color, alpha = 1)
+	unquote('#') + hex(alpha * 255) + hex(red(color)) + hex(green(color)) + hex(blue(color))
+
+background-gradient(fromColor, toColor, alpha1 = 1, alpha2 = 1)
+	from = rgba(fromColor, alpha1)
+	to = rgba(toColor, alpha2)
+	ms-from = argb(fromColor, alpha1)
+	ms-to = argb(toColor, alpha2)
+	background-color from
+	background-image linear-gradient(top, from 0%,to 100%)
+	filter s("progid:DXImageTransform.Microsoft.gradient(startColorstr='%s', endColorstr='%s', GradientType=0)", ms-from, ms-to)
+	zoom 1
+
+mx-rotate()
+	-webkit-transform rotate(arguments)
+	-moz-transform rotate(arguments)
+	-ms-transform rotate(arguments)
+	-o-transform rotate(arguments)
+	transform rotate(arguments)
+
+fit-image()
+	text-align center
+	letter-spacing 0
+	font-size 0
+	&:after
+		content ""
+		display inline-block
+		height 100%
+		width 0
+		vertical-align middle
+	>img
+		letter-spacing normal
+		font-size 12px
+		border 0 none
+		margin 0 auto
+		max-width 100%
+		max-height 100%
+		display inline-block
+		vertical-align middle
+
+
+center-block()
+	text-align center
+	letter-spacing 0
+	font-size 0
+	&:after
+		content ""
+		display inline-block
+		height 100%
+		width 0
+		vertical-align middle
+	>div
+	>span
+		text-align left
+		letter-spacing normal
+		font-size 14px
+		margin 0 auto
+		display inline-block
+		vertical-align middle
+
+reset-ul()
+	&, & li
+		margin 0
+		padding 0
+		list-style none
+
+apply-sepia()
+	// Chrome 18+
+	-webkit-filter: sepia(1)
+	-webkit-filter: sepia(100%)
+	-moz-filter: sepia(100%)
+	-ms-filter: sepia(100%)
+	-o-filter: sepia(100%)
+	filter: sepia(100%)
+
+	// Firefox 4+
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'old-timey\'><feColorMatrix type=\'matrix\' values=\'0.64 0.55 0.15 0 0 0.52 0.49 0.14 0 0 0.18 0.38 0.13 0 0 0 0 0 1 0\'/></filter></svg>#old-timey")
+
+	// IE
+	background-color: #5E2612
+	filter: s('alpha(opacity = 50)')
+	zoom: 1
+
+icon(num, fontSize = inherit)
+	&:before
+		font-family 'icons'
+		font-size fontSize
+		speak none
+		font-style normal
+		font-weight normal
+		font-variant normal
+		text-transform none
+		line-height 1
+		-webkit-font-smoothing antialiased
+		-moz-osx-font-smoothing grayscale
+		display inline-block
+		content num
+
+iconParams()
+	font-family 'icons'
+	speak none
+	font-style normal
+	font-weight normal
+	font-variant normal
+	text-transform none
+	line-height 1
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale

@@ -4,13 +4,23 @@
 body
 	font-family: mainFont
 	line-height: 1.44
-	//font-weight 300
+	color #262626
 
 h1, .h1
 	margin .4em 0 .1em
 a
-	color: #2980b9
+	color: #55acee
 	text-decoration: none
 	transition color .15s
 	&:hover
-		color: #9b59b6
+	&:focus
+		color: #006daa
+	
+	&[href*="//"]
+		&:after
+			content "\e60b"
+			position: relative
+			font-size .8em
+			top -0.3em
+			left 0.2em
+			iconParams()

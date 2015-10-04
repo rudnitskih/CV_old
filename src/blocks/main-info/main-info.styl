@@ -1,13 +1,21 @@
 .main-info
-	padding-top 50px
-	clearfix()
+	@media tablet_desktop
+		margin-top 50px
+		clearfix()
+	@media phone
+		margin-top 10px
+		font-size 15px
 	&__column
-		float left
-		width 50%
+		@media tablet_desktop
+			float left
+			width 50%
 	&__photo
-		width 100%
-		max-width 200px
-		float right
+		width 250px
+		&-container
+			@media tablet_desktop
+				text-align right
+			@media phone
+				text-align: center
 	&__label
 		color #7f8c8d
 		display inline-block
@@ -19,4 +27,7 @@
 		@media desktop
 			font-size 40px
 	&__subtitle
-		margin 10px 0
+		@media tablet_desktop
+			margin 10px 0
+		@media phone
+			margin 0

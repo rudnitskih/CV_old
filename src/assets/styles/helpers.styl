@@ -1,10 +1,19 @@
-gutterDesktop = 50px
+gutterDesktop = 70px
+gutterTablet = 30px
 gutterPhone = 10px 
 .container
 	margin 0 auto
 	@media desktop
-		width ( desktopWidth - gutterDesktop * 2 ) 
-		padding 0 gutterDesktop  
+		width ( desktopWidth - gutterDesktop * 2 )
+	@media tablet
+		width ( tabletWidth - gutterTablet * 2 )
+	@media phone
+		margin 0 gutterPhone
 
 .separator
-	margin-top 30px
+	@media tablet_desktop
+		margin-top 30px
+
+.hidden-phone
+	@media phone
+		display: none

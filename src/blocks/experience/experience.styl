@@ -1,21 +1,35 @@
 .experience
 	&__item
 		clearfix()
-		margin-top 30px
+		@media tablet_desktop
+			margin-top 30px
+		@media phone
+			margin-top 10px
 		& + .experience__item
-			margin-top 50px
+			@media tablet_desktop
+				margin-top 50px
+			@media phone
+				margin-top 20px
 	&__label
 		display: inline-block
 		width 110px
 		color #7f8c8d
+
 	&__description
 		.experience
 			&__value
-				margin 0
+				@media tablet_desktop
+					margin 0
+				@media phone
+					margin-top 10px
 	&__column
-		float left
-		&_left
-			width 40%
-		&_right
-			width 60%
+		@media tablet_desktop
+			float left
+		@media desktop
+			&_left
+				width 40%
+			&_right
+				width 60%	
+		@media tablet
+			width 50%
 			

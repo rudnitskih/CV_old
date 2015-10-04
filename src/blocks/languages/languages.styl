@@ -2,18 +2,23 @@
 	&__item
 		clearfix()
 	&__key
-		display: block
-		vertical-align top
-		float left
 		color #7f8c8d
-		width 15%
+		@media tablet_desktop
+			float left
+			width 15%
+		@media phone
+			display: inline-block
+			width 110px
 	&__description
-		font-style: 13px
-		font-style italic
+		@media tablet_desktop
+			font-style italic
+		@media phone
+			display none
 	&__value
-		display: block
-		vertical-align top
-		float left
 		margin 0
-		width 85%
-		
+		@media tablet_desktop
+			float left
+			width 85%
+		@media phone
+			display: inline-block
+			
