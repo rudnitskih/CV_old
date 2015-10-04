@@ -9282,13 +9282,34 @@ $(function() {
 
 (function() {
   $(function() {
-    var $block;
-    $block = $(".project");
-    if (!$block.length) {
-      return;
-    }
-    $block.find(".project__name").sameHeightHack();
-    return $block.find(".project__tags").sameHeightHack();
+    var block;
+    return block = {
+      init: function(root) {
+        if (root == null) {
+          root = ":root";
+        }
+        this.$block = $(root).find(".project");
+        if (!this.$block.length) {
+          return;
+        }
+        this.cacheDom();
+        this.bindEvents();
+        return this.sameHeight();
+      },
+      cacheDom: function() {
+        return this.$tags = this.$block.find(".project__tags");
+      },
+      bindEvents: function() {
+        return $(window).on("resize", this.sameHeight.bind(this));
+      },
+      sameHeight: function() {
+        if (window.innerWidth > 768) {
+          return this.$tags.sameHeightHack();
+        } else {
+          return this.$tags.removeAttr("style");
+        }
+      }
+    };
   });
 
 }).call(this);
