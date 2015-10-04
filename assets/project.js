@@ -9275,15 +9275,8 @@ $(function() {
 
 (function() {
   $(function() {
-    return console.log("education work");
-  });
-
-}).call(this);
-
-(function() {
-  $(function() {
     var block;
-    return block = {
+    block = {
       init: function(root) {
         if (root == null) {
           root = ":root";
@@ -9304,12 +9297,14 @@ $(function() {
       },
       sameHeight: function() {
         if (window.innerWidth > 768) {
+          console.log("project");
           return this.$tags.sameHeightHack();
         } else {
           return this.$tags.removeAttr("style");
         }
       }
     };
+    return block.init();
   });
 
 }).call(this);
