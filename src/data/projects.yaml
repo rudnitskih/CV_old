@@ -5,7 +5,7 @@
     - Fullstack Development
     - Responsive website
     - Supporting
-  responsibilities: "Поддержка существуещого сайта, ранее разработанного в компании, верстка новых виджетов, скриптинг фронтенд части, а также програмирование бекенда с использованием ПХП, Джейд2ПХП, вордпресс, интеграция сервера с сайта с СРМ банка<br><br>Transfer markup to WordPress using PHP and Jade2Php, integration with bank`s CRM. Supporting, markup and scripting new functional."
+  responsibilities: "Transfer markup to WordPress using PHP and Jade2Php, integration with bank`s CRM. Supporting, markup and scripting new functional"
 - 
   name: ZaxidFest
   url: zaxidfest.com
@@ -13,7 +13,7 @@
     - Frontend Development
     - Responsive website
     - One person development
-  responsibilities: "Верстка лендинга для мероприятия, скриптинг визуальных эффектов<br><br>Markup landing for ZaxidFest2015, scripting visuals effects."
+  responsibilities: "Markup landing for ZaxidFest 2015, scripting the visuals effects"
 - 
   name: Astro.club
   url: astrology.net.ua
@@ -23,7 +23,7 @@
     - Team Development
     - Pixel Perfect
     - Supporting 
-  responsibilities: "Markup, scripting, fixing bugs, supporting"
+  responsibilities: "Markuping, scripting, fixing bugs, supporting"
 -
   name: Eda.ua
   url: eda.ua
@@ -32,7 +32,7 @@
     - Responsive website
     - Team Development
     - Supporting
-  responsibilities: "Разработка и внедрение адаптивной версии сайта<br><br>Create and implement adaptive website version, supporting"
+  responsibilities: "Creation and implementftion adaptive website version, supporting"
 -
   name: Fastimport
   url: fastimport.ru
@@ -41,7 +41,7 @@
     - Responsive website
     - One person development
     - Supporting
-  responsibilities: "Верстка, скриптинг, програмирование бекенда с использованием ПХП, Джейд2ПХП, вордпресс, интеграция сайта с АрмоСРМ<br><br>Markup, scripting, programming back-end using WordPress, PHP, Jade2Php and integration with ArmoCRM "
+  responsibilities: "Markuping, scripting, programming back-end using WordPress, PHP, Jade2Php and integration with ArmoCRM"
 -
   name: Credit365
   url: credit365.app.se7ensky.com/sitegrid.html
@@ -50,7 +50,7 @@
     - Frontend Development
     - Responsive website
     - Team Development
-  responsibilities: "Руководство фронтенд командой, вертска и скриптинг отдельных виджетов<br><br>Manage front-end team, markup and scripting mode difficult part."
+  responsibilities: "Managing front-end team, markup and scripting the most difficult part"
 -
   name: OPAYZ
   url: opayz.com
@@ -58,7 +58,7 @@
     - Frontend Development
     - Responsive website
     - Supporting
-  responsibilities: "Поддержка и внедрение нового функционала<br><br>Support and implement new functional."
+  responsibilities: "Supporting and implementable new functional"
 -
   name: FTBN
   url: ftbn.com
@@ -66,13 +66,13 @@
     - Frontend Development
     - Responsive website
     - Supporting
-  responsibilities: "Поддержка проекта<br><br>Supporting"
+  responsibilities: "Supporting"
 - 
   name: Landing for USB
   url: usb-landing-everyday-v2.app.se7ensky.com
   tags: 
     - Frontend Development
-  responsibilities: "Markup, scripting, integration with Facebook and VK API"
+  responsibilities: "Markuping, scripting, integration with Facebook and VK API"
 -
   name: ExchangeUA
   url: exchangeua.meteor.com
@@ -80,10 +80,10 @@
     - Fullstack Development
     - Responsive website
     - Pet project
-  responsibilities: "Особистий проект при разробтці якого ставив на меті ознайомитись с фреймворком Метеор<br><br>Pet project, while development had purpose try framework Meteor.js"
+  responsibilities: "Pet project, purpose of which try framework Meteor.js"
 - 
   name: Betonwood
   url: beton-wood.com.ua
   tags: 
     - Frontend Development
-  responsibilities: "Інтернет магазин в якості бази даних використовується Гугл спредщітс та динамічне створенння DOM<br><br>Scripting, internet store where database is Google Spreadsheets"
+  responsibilities: "Scripting, internet store where database is Google Spreadsheets"

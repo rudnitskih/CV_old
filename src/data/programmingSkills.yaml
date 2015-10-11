@@ -20,6 +20,7 @@
         - Bootstrap 3
         - Modernizr
         - MomentJS
+        - Highcharts.js
     - typeName: "Patterns/Methodologies"
       values: 
         - Responsive Design
@@ -68,10 +69,11 @@
     - HTTP/TCP
     - SVG Animations
     - MeteorJS
-    - MongoDB
     - Apache
     - Dokku
     - Heroku
+    - MongoDB
     - MySQL
+    - XML
     - Assembler
     - "C#"
