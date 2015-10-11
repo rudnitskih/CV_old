@@ -4,12 +4,12 @@
   icon: github
   target: _blank
 -
-  url: "/"
+  url: ""
   title: PDF version
   icon: pdf
   target: _self
 -
-  url: "/"
+  url: ""
   title: Word version
   icon: doc
   target: _self
