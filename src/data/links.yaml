@@ -4,8 +4,8 @@
   icon: github
   target: _blank
 -
-  url: ""
-  title: PDF version
+  url: "//github.com/rudnitskih/SV/SV_Frontend_Rudnytskykh.pdf"
+  title: PDF version (generated using Phantom.js)
   icon: pdf
   target: _self
 -
