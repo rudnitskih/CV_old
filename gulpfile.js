@@ -16,7 +16,8 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     streamqueue = require('streamqueue'),
     filter = require('gulp-filter'),
-    deploy = require('gulp-gh-pages');
+    deploy = require('gulp-gh-pages'),
+    pdf = require('phantom-html2pdf'),
     nib = require('nib');
 
 ;
@@ -116,9 +117,21 @@ gulp.task('server', function() {
       gulp.watch([ 'src/blocks/**/*.styl', 'src/assets/styles/*.styl' ],['styles']);
       gulp.start('server');
   });
- gulp.task('default',['watch', 'jade', 'imagemin', "scripts", "styles", "fonts" ]);
+  gulp.task('default',['watch', 'jade', 'imagemin', "scripts", "styles", "fonts" ]);
 
+  // gulp.task('pdf', ['default'], function () {
+  // });
+
+    
 gulp.task('deploy', function () {
+  createPdf({
+    "html": "./out/index.html",
+    "css": "./out/assets/project.css",
+    "js": "./out/assets/project.js",
+    "paperSize": {
+       delay: 4000
+    }
+  })
   return gulp.src("./out/**/*")
     .pipe(deploy())
 });
@@ -136,4 +149,11 @@ function combineJSONFiles(dir) {
     return data;
 }
 
-
+function createPdf(options){
+  pdf.convert(options, function(result) {
+    result.toBuffer(function(returnedBuffer) {});
+    var stream = result.toStream();
+    var tmpPath = result.getTmpPath();
+    result.toFile("./out/SV_Frontend_Rudnytskykh.pdf", function() {});
+  });
+}

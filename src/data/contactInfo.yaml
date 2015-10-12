@@ -15,4 +15,4 @@ items:
     value: "<a href='mailto: rudnitskih@gmail.com'>rudnitskih@gmail.com</a>"
   - key: "LinkedIn"
     value: "<a href='//ua.linkedin.com/in/rudnitskih' target='_blank'>Dmytro Rudnytskykh</a>"
-mainPhoto: assets/i/dsc8594.jpg 
+mainPhoto: http://rudnitskih.github.io/SV/assets/i/dsc8594.jpg
