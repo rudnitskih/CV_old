@@ -2,7 +2,9 @@ iconSize = 32px
 .sources
 	background-color red
 	&__link
-		display: block
+		display: inline-block
+		@media print
+			display none
 		& + .sources__link
 			margin-top 10px
 	&__icon

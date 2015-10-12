@@ -4,18 +4,33 @@
 	&__name
 		font-size 24px
 		margin 0
+		@media print
+			margin 0
+			padding 0
+			font-size 20px
 	&__tags
 		margin 10px 0
-	&__tags-label
-		color #7f8c8d
-		display: inline-block
 		font-size 14px
+		@media print
+			display none
+			font-size 12px
+	&__tags-label
+		display: inline-block
+		color #7f8c8d
+		@media print
+			display none
 	&__tag
 		display: inline-block
 		padding 3px 7px
 		margin 3px 1px
 		line-height 1.1
-		font-size 14px
 		border 1px solid #7f8c8d
 		border-radius 50px
 		color #2c3e50
+		@media print
+			display: none
+	&__desription
+		margin 0
+		padding 0
+		@media print
+			margin 0

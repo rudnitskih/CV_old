@@ -19,6 +19,8 @@ a
 	&:hover
 	&:focus
 		color: #006daa
+	@media print
+		color inherit
 	
 	&[href*="//"]
 		&:after
@@ -28,3 +30,13 @@ a
 			top -0.3em
 			left 0.2em
 			iconParams()
+		@media print
+			&:after
+				content ''
+
+@media print
+	h1, .h1
+		font-size 25px
+		margin 0
+	h2, .h2
+		font-size 20px

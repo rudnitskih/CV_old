@@ -22,18 +22,15 @@ var gulp = require('gulp'),
 
 ;
 gulp.task('jade', ["yaml"], function(){
-  console.log("jade");
   var jsonData = combineJSONFiles("./src/tmp/data");
-  console.log("startTask");
   gulp.src('./src/*.jade')
     .pipe(data( function(file) {
-      // console.log(combineJSONFiles("./src/tmp/data"));\
       return jsonData;
     }))
     .pipe(jade({ pretty: true }))
-    .on('error', console.log) // Выводим ошибки в консоль
-    .pipe(gulp.dest('./out/')) // Выводим сгенерированные HTML-файлы в ту же папку по тем же именем, но с другим расширением
-    .pipe(livereload()); // Перезапускаем сервер LiveReload
+    .on('error', console.log)
+    .pipe(gulp.dest('./out/'))
+    .pipe(livereload());
 });
 
 gulp.task('scripts',function(){
@@ -119,19 +116,19 @@ gulp.task('server', function() {
   });
   gulp.task('default',['watch', 'jade', 'imagemin', "scripts", "styles", "fonts" ]);
 
-  // gulp.task('pdf', ['default'], function () {
-  // });
+  gulp.task('pdf', function () {
+    createPdf({
+      "html": "./out/index.html",
+      "css": "./out/assets/project.css",
+      "js": "./out/assets/project.js",
+      "paperSize": {
+         delay: 4000
+      }
+    })
+  });
 
     
-gulp.task('deploy', function () {
-  createPdf({
-    "html": "./out/index.html",
-    "css": "./out/assets/project.css",
-    "js": "./out/assets/project.js",
-    "paperSize": {
-       delay: 4000
-    }
-  })
+gulp.task('deploy', ['pdf'], function () {
   return gulp.src("./out/**/*")
     .pipe(deploy())
 });

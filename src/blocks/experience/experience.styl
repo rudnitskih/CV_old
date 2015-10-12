@@ -5,11 +5,15 @@
 			margin-top 30px
 		@media phone
 			margin-top 10px
+		@media print
+			margin-top 0
 		& + .experience__item
 			@media tablet_desktop
 				margin-top 50px
 			@media phone
 				margin-top 20px
+			@media print
+				margin-top 10px
 	&__label
 		display: inline-block
 		width 110px
@@ -18,7 +22,8 @@
 	&__description
 		.experience
 			&__value
-				@media tablet_desktop
+				margin 0
+				@media print
 					margin 0
 				@media phone
 					margin-top 10px
