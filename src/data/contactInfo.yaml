@@ -3,10 +3,8 @@ subtitle: Front-end, JS Developer
 items:
   - key: "Date of birth"
     value: "November 26 1994 (20 years)"
-  - key: "Country"
-    value: "Ukraine"
-  - key: "City"
-    value: "Kyiv"
+  - key: "Location"
+    value: "Kyiv, Ukraine"
   - key: "Mobile"
     value: "<a href='tel:+380636536215?call'>+38 (063) 65 36 215</a>"
   - key: "Skype"
@@ -15,4 +13,7 @@ items:
     value: "<a href='mailto: rudnitskih@gmail.com'>rudnitskih@gmail.com</a>"
   - key: "LinkedIn"
     value: "<a href='//ua.linkedin.com/in/rudnitskih' target='_blank'>Dmytro Rudnytskykh</a>"
+  - key: "Link on SV"
+    value: "rudnitskih.pp.ua"
+    mod: "visible-print"
 mainPhoto: http://rudnitskih.github.io/SV/assets/i/dsc8594.jpg

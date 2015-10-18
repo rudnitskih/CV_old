@@ -6,7 +6,7 @@ if contactInfo
 		if contactInfo.items
 			dl.main-info__list
 				each item, i in contactInfo.items
-					.main-info__item
+					.main-info__item( class=item.mod )
 						dt.main-info__label #{item.key}:
 						dd.main-info__value!= item.value
 		.main-info__links
