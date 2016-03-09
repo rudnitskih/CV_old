@@ -4,23 +4,29 @@
   values:
     - typeName: Languages
       values:
-        - JavaScript
+        - JavaScript ES5/ES2016
         - HTML
         - CSS
         - PHP
+        - Bash
+    - typeName: Server
+      values:
+        - NodeJS
+        - ExpressJS
     - typeName: Preprocessors
       values: 
         - CoffeScript
         - Jade
-        - Stylus
-        - Less
+        - Stylus/Sass/Less
     - typeName: "Frameworkes/Libraries"
       values: 
+        - Angular 1
         - jQuery
         - Bootstrap 3
         - Modernizr
         - MomentJS
-        - Highcharts.js
+        - HighchartsJS
+        - PaperJS, FabricJS
     - typeName: "Patterns/Methodologies"
       values: 
         - Responsive Design
@@ -31,6 +37,7 @@
       values: 
         - Linux
         - MacOS
+        - Windows
     - typeName: Data Formates
       values: 
         - JSON
@@ -42,6 +49,7 @@
         - File System 
         - Media
         - Web Storage
+        - HTML5 Forms
     - typeName: Images
       values: 
         - SVG
@@ -57,6 +65,7 @@
         - Git
         - Bower
         - Gulp
+        - Grunt
     - typeName: Tasks Managers
       values: 
         - Jira
@@ -64,8 +73,6 @@
         - Toggl
 - typeName: Familiarity
   values:
-    - EcmaScript 6
-    - NodeJS
     - HTTP/TCP
     - SVG Animations
     - MeteorJS
