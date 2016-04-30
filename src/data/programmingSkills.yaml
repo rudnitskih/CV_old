@@ -5,43 +5,32 @@
     - typeName: Languages
       values:
         - JavaScript ES5/ES2016
-        - HTML
-        - CSS
-        - PHP
-        - Bash
-    - typeName: Server
-      values:
-        - NodeJS
-        - ExpressJS
+        - HTML5
+        - CSS3
     - typeName: Preprocessors
       values: 
+        - Stylus/Sass/Less
         - CoffeScript
         - Jade
-        - Stylus/Sass/Less
     - typeName: "Frameworkes/Libraries"
       values: 
         - Angular 1
-        - jQuery
         - Bootstrap 3
-        - Modernizr
+        - jQuery
+        - Lodash
         - MomentJS
-        - HighchartsJS
-        - PaperJS, FabricJS
+        - async
     - typeName: "Patterns/Methodologies"
       values: 
+        - JavaScript Patterns
         - Responsive Design
         - BEM
-        - OO JavaScript
-        - REST
+        - REST API
     - typeName: OS
-      values: 
-        - Linux
+      values:
         - MacOS
+        - Linux
         - Windows
-    - typeName: Data Formates
-      values: 
-        - JSON
-        - YAML
     - typeName: HTML5 API
       values: 
         - AJAX
@@ -50,36 +39,68 @@
         - Media
         - Web Storage
         - HTML5 Forms
-    - typeName: Images
+    - typeName: "Images"
       values: 
         - SVG
         - Font icons
         - Sprites
         - Adobe Photoshop
         - Adobe Illustrator
-    - typeName: CMS
-      values: 
-        - WordPress
+    - typeName: "VCS"
+      values:
+        - Git
+        - Perforce
+    - typeName: "Package Managment"
+      values:
+        - npm
+        - bower
+        - composer
     - typeName: Workflow
       values: 
-        - Git
-        - Bower
-        - Gulp
-        - Grunt
-    - typeName: Tasks Managers
-      values: 
+        - Scrum
         - Jira
         - Asana
         - Toggl
+    - typeName: "Others"
+    - values:
+      - HTTP/TCP
+      - Gulp
+      - JSON
+      - YAML
+      - Markdown
+      
+- typeName: Essential
+  withSubitems: true
+  - typeName: Languages
+      values:
+        - PHP
+        - Bash
+  - typeName: Server
+    values:
+      - NodeJS
+      - ExpressJS
+      - MongoDB
+  - typeName: "Frameworkes/Libraries"
+    values:
+      - HighchartsJS
+      - PaperJS
+      - FabricJS
+      - GSAP
+      - Foundation
+  - typeName: "Others"
+    values:
+      - WordPress
+      - Grunt
+    
 - typeName: Familiarity
   values:
-    - HTTP/TCP
+    - WebPack
+    - React
     - SVG Animations
     - MeteorJS
     - Apache
     - Dokku
     - Heroku
-    - MongoDB
     - MySQL
     - XML
     - Assembler
