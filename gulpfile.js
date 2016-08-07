@@ -19,7 +19,6 @@ var gulp = require('gulp'),
     pdf = require('phantom-html2pdf'),
     nib = require('nib');
 
-;
 gulp.task('jade', ["yaml"], function(){
   var jsonData = combineJSONFiles("./src/tmp/data");
   gulp.src('./src/*.jade')
@@ -145,6 +144,7 @@ function combineJSONFiles(dir) {
 
 function createPdf(options){
   pdf.convert(options, function(result) {
+    console.log(result);
     result.toBuffer(function(returnedBuffer) {});
     var stream = result.toStream();
     var tmpPath = result.getTmpPath();
