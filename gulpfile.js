@@ -5,7 +5,6 @@ var gulp = require('gulp'),
     serveStatic = require('serve-static'),
     jade = require('gulp-jade'),
     data = require('gulp-data'),
-    imagemin = require('gulp-imagemin'),
     path = require("path"),
     yaml = require('gulp-yaml'),
     bower = require('gulp-bower'),
@@ -86,12 +85,10 @@ gulp.task('fonts', function() {
 
 gulp.task('imagemin',function(){
    gulp.src('./src/assets/i/**/*')
-      .pipe(imagemin())
       .pipe(gulp.dest('./out/assets/i/'));
 });
 
 gulp.task('yaml',function(){
-  console.log('yaml');
   gulp.src('./src/data/*.yaml')
       .pipe(yaml())
       .pipe(gulp.dest('./src/tmp/data'));

@@ -8,7 +8,6 @@
     "gulp-stylus": "*",
     "gulp-coffee": "*",
     "gulp-livereload": "*",
-    "gulp-imagemin": "*",
     "gulp-concat": "*",
     "connect": "*",
     "serve-static": "*",
@@ -24,6 +23,7 @@
   },
   "devDependencies": {
     "gulp-filter": "~3.0.1",
-    "gulp-gh-pages": "~0.5.2"
+    "gulp-gh-pages": "~0.5.2",
+    "phantom-html2pdf": "^3.0.0"
   }
 }

@@ -24,38 +24,38 @@
 }
 
 .icon-github:before {
-	content: "\e600";
+  content: "\e600";
 }
 .icon-adobe:before {
-	content: "\e601";
+  content: "\e601";
 }
 .icon-summary:before {
-	content: "\e607";
+  content: "\e607";
 }
 .icon-pdf:before {
-	content: "\e608";
+  content: "\e608";
 }
 .icon-doc:before {
-	content: "\e602";
+  content: "\e602";
 }
 .icon-world:before {
-	content: "\e603";
+  content: "\e603";
 }
 .icon-gears:before {
-	content: "\e604";
+  content: "\e604";
 }
 .icon-tag:before {
-	content: "\e605";
+  content: "\e605";
 }
 .icon-case:before {
-	content: "\e606";
+  content: "\e606";
 }
 .icon-chart:before {
-	content: "\e609";
+  content: "\e609";
 }
 .icon-cap:before {
-	content: "\e60a";
+  content: "\e60a";
 }
-.icon-chain:before {
-	content: "\e60b";
+.icon-link:before {
+  content: "\e900";
 }

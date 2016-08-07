@@ -2,106 +2,114 @@
   typeName: Advanced
   withSubitems: true
   values:
-    - typeName: Languages
+    - 
+      typeName: Languages
       values:
         - JavaScript ES5/ES2016
         - HTML5
         - CSS3
-    - typeName: Preprocessors
+    - 
+      typeName: Preprocessors
       values: 
-        - Stylus/Sass/Less
         - CoffeScript
         - Jade
-    - typeName: "Frameworkes/Libraries"
+        - Stylus/Sass/Less
+    - 
+      typeName: "Frameworkes/Libraries"
       values: 
-        - Angular 1
-        - Bootstrap 3
+        - Angular 1.X
         - jQuery
+        - Bootstrap 3
         - Lodash
-        - MomentJS
-        - async
-    - typeName: "Patterns/Methodologies"
+        - Angular UI-Bootstrap
+    - 
+      typeName: "Patterns/Methodologies"
       values: 
         - JavaScript Patterns
-        - Responsive Design
+        - Responsive Web Design
         - BEM
         - REST API
-    - typeName: OS
+    - 
+      typeName: OS
       values:
         - MacOS
         - Linux
         - Windows
-    - typeName: HTML5 API
+    - 
+      typeName: HTML5 API
       values: 
         - AJAX
+        - Promises
         - Canvas
         - File System 
         - Media
         - Web Storage
         - HTML5 Forms
-    - typeName: "Images"
-      values: 
-        - SVG
-        - Font icons
-        - Sprites
-        - Adobe Photoshop
-        - Adobe Illustrator
-    - typeName: "VCS"
+    - 
+      typeName: "VCS"
       values:
         - Git
         - Perforce
-    - typeName: "Package Managment"
+    - 
+      typeName: "Package Managment"
       values:
         - npm
         - bower
         - composer
-    - typeName: Workflow
+    - 
+      typeName: Workflow
       values: 
-        - Scrum
+        - Gulp
+        - Continuous Integration 
+        - Agile/Scrum
         - Jira
         - Asana
         - Toggl
-    - typeName: "Others"
-    - values:
-      - HTTP/TCP
-      - Gulp
-      - JSON
-      - YAML
-      - Markdown
-      
-- typeName: Essential
+- 
+  typeName: Essential
   withSubitems: true
-  - typeName: Languages
+  values:
+    - 
+      typeName: Languages
       values:
         - PHP
         - Bash
-  - typeName: Server
-    values:
-      - NodeJS
-      - ExpressJS
-      - MongoDB
-  - typeName: "Frameworkes/Libraries"
-    values:
-      - HighchartsJS
-      - PaperJS
-      - FabricJS
-      - GSAP
-      - Foundation
-  - typeName: "Others"
-    values:
-      - WordPress
-      - Grunt
-    
-- typeName: Familiarity
+    - 
+      typeName: Server
+      values:
+        - NodeJS
+        - ExpressJS
+        - MongoDB
+    - 
+      typeName: "Frameworkes/Libraries"
+      values:
+        - Backbone
+        - MeteorJS
+        - Foundation
+        - Angular Material
+        - GSAP
+    -
+      typeName: "Testing"
+      values:
+        - TDD
+        - Unit-testing
+        - Jasmine
+        - Karma
+    - 
+      typeName: "Others"
+      values:
+        - Google API
+        - WordPress
+        - Grunt
+        - SVG
+        - UX
+- 
+  typeName: Familiarity
   values:
     - WebPack
     - React
     - SVG Animations
-    - MeteorJS
-    - Apache
-    - Dokku
-    - Heroku
+    - PhantomJS
     - MySQL
-    - XML
     - Assembler
     - "C#"

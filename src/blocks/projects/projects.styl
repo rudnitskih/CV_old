@@ -1,12 +1,13 @@
 .projects
+	display flex
 	flex-flow row wrap
+	
 	@media tablet_desktop
 		margin 0 -10px
+	
 	.project
 		@media tablet_desktop
-			display inline-block
-			vertical-align top
-			width 49.5%
+			flex-basis 50%
 			margin 10px 0
 		
 		@media print
