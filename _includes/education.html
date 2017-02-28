@@ -1,5 +1,5 @@
 <div class="education">
-    <dl class="education__list" itemscope itemtype="http://schema.org/Person">
+    <dl class="education__list" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
         {% for university in site.data.education %}
             <div class="education__item">
                 <div class="education__info education__info_years">
@@ -13,14 +13,16 @@
                 <div class="education__info">
                     <dt class="education__key">Alma mater:</dt>
                     <dd class="education__value">
-                        <a href="//{{ university.almamater.url }}"
+                        <a itemprop="name"
+                           href="//{{ university.almamater.url }}"
                            title="{{ university.almamater.url }}"
-                           target="_blank">{{university.almamater.name}}</a>
+                           target="_blank">{{ university.almamater.name }}</a>
                     </dd>
                 </div>
                 <div class="education__info">
                     <dt class="education__key">Major:</dt>
-                    <dd class="education__value">{{ university.major }}</dd>
+                    <dd itemprop="description"
+                        class="education__value">{{ university.major }}</dd>
                 </div>
             </div>
         {% endfor %}

@@ -1,10 +1,10 @@
 {% assign mainInfo = site.data.main_info %}
 
-<div class="main-info" itemscope itemtype="http://schema.org/Person">
+<div class="main-info">
     <div class="main-info__column main-info__column_left">
         <hgroup class="main-info__titles">
-            <h1 class="main-info__title">{{ mainInfo.name }}</h1>
-            <h2 class="main-info__subtitle">{{ mainInfo.position }}</h2>
+            <h1 class="main-info__title" itemprop="name">{{ mainInfo.name }}</h1>
+            <h2 class="main-info__subtitle" itemprop="jobTitle">{{ mainInfo.position }}</h2>
         </hgroup>
 
         <dl class="main-info__list">
@@ -18,7 +18,10 @@
 
         <div class="main-info__links">
             {% for link in {{site.data.links}} %}
-                <a href="{{ link.url }}" class="main-info__link" target="{{ link.target }}">
+                <a href="{{ link.url }}"
+                   itemprop="url"
+                   class="main-info__link"
+                   target="{{ link.target }}">
                     <span class="main-info__link-icon icon-{{ link.icon }}"></span>
                     <span class="main-info__link-text">{{ link.title }}</span>
                 </a>
@@ -26,7 +29,9 @@
         </div>
     </div>
     <div class="main-info__column main-info__column_right">
-        <img src="{{ mainInfo.photo | relative_url }}"
-             alt="CV_Photo" class="main-info__photo">
+        <img itemprop="image"
+             src="{{ mainInfo.photo | relative_url }}"
+             alt="CV_Photo"
+             class="main-info__photo">
     </div>
 </div>
