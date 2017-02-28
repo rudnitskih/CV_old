@@ -15,11 +15,6 @@
   }
 
   &__column {
-    @media (min-width: 768px), print {
-      //float: left;
-      //width: 50%
-    }
-
     &_left {
       flex-grow: 1;
     }
@@ -29,7 +24,7 @@
 
       @media (min-width: 768px), print {
         position: relative;
-        flex-basis: 400px;
+        flex-basis: 250px;
       }
     }
   }
