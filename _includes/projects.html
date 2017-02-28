@@ -1,0 +1,16 @@
+<div class="projects">
+    {% for project in site.data.projects %}
+    <article class="project">
+        <h1 class="project__name">
+            <a href="//{{ project.url }}"
+               title="{{ project.url }}"
+               target="_blank"
+               class="project__link">{{ project.name }}</a>
+        </h1>
+
+        <p class="project__description">{{ project.description }}</p>
+    </article>
+    {% endfor %}
+
+    <p class="projects__disclaimer"><sup>*</sup> Some projects already closed or under NDA, so I can not put links here.</p>
+</div>

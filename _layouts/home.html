@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="container">
+    <main class="main">
+        <section id="main" class="section">
+            {% include main-info.html %}
+        </section>
+        <hr class="separator"/>
+
+        <section id="summary" class="section">
+            <h1 class="section__title"><span class="section__icon icon-summary"></span>Summary</h1>
+
+            {% include summary.html %}
+        </section>
+        <hr class="separator"/>
+
+        <section id="hard-skills" class="section">
+            <h1 class="section__title"><span class="section__icon icon-tag"></span>Hard skills</h1>
+            {% include programming-skills.html %}
+        </section>
+        <hr class="separator"/>
+
+        <section id="experience" class="section">
+            <h1 class="section__title"><span class="section__icon icon-chart"></span>Work Experience</h1>
+            {% include experience.html %}
+        </section>
+        <hr class="separator"/>
+
+        <section id="cases" class="section">
+            <h1 class="section__title"><span class="section__icon icon-case"></span>Projects</h1>
+            {% include projects.html %}
+        </section>
+        <hr class="separator"/>
+
+        <section id="soft-skills" class="section">
+            <h1 class="section__title"><span class="section__icon icon-gears"></span>Soft skills</h1>
+            {% include soft-skills.html %}
+        </section>
+        <hr class="separator"/>
+
+        <section id="languages" class="section">
+            <h1 class="section__title"><span class="section__icon icon-world"></span>Languages</h1>
+            {% include languages.html %}
+        </section>
+        <hr class="separator"/>
+
+        <section id="education" class="section">
+            <h1 class="section__title"><span class="section__icon icon-cap"></span>Education</h1>
+            {% include education.html %}
+        </section>
+    </main>
+</div>

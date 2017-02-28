@@ -1,0 +1,32 @@
+.section {
+  &__title {
+    position: relative;
+  }
+
+  &__icon {
+    margin-right: 10px;
+    height: 100%;
+
+    &:after {
+      content: "";
+      height: 100%;
+      vertical-align: middle;
+      display: inline-block;
+    }
+
+    &:before,
+    &:after {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 767px) {
+      position: absolute;
+      right: 100%;
+    }
+  }
+}

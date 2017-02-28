@@ -1,0 +1,15 @@
+-
+  url: "//github.com/rudnitskih/CV"
+  title: Github
+  icon: github
+  target: _blank
+-
+  url: "javascript:window.print()"
+  title: PDF / Print
+  icon: pdf
+  target: _self
+-
+  url: "//code.makery.ch/library/convert-web-page-to-word/"
+  title: Word
+  icon: doc
+  target: _blank

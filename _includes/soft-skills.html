@@ -1,0 +1,17 @@
+<div class="soft-skills">
+    <ul class="soft-skills__list">
+        {% for skill in site.data.soft_skills %}
+            <li class="soft-skills__item">
+                <span class="soft-skills__key">
+                    {{ skill.name }}
+                </span>
+
+                <span>—</span>
+
+                <span class="soft-skills__value">
+                    {{ skill.value }}
+                </span>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

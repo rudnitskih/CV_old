@@ -1,0 +1,27 @@
+{% assign programmingSkills = site.data.programming_skills %}
+
+{% for category in programmingSkills %}
+    <div class="programming-skills">
+        <div class="programming-skills__type">
+            <h2 class="programming-skills__title">{{ category.name }}</h2>
+            {% if category.subcategories %}
+                {% for subcategory in category.subcategories %}
+                    <dl class="programming-skills__list">
+                        <div class="programming-skills__item">
+                            <dt class="programming-skills__sub-title">{{ subcategory.name }}:</dt>
+                            <dd class="programming-skills__value">
+                                {{ subcategory.values | join: ", " }}</dd>
+                        </div>
+                    </dl>
+                {% endfor %}
+            {% endif %}
+
+            {% if category.values %}
+                <span class="programming-skills__list">
+                    <span class="programming-skills__value">
+                            {{ category.values | join: ", " }}</span>
+                </span>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}

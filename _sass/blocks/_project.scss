@@ -1,0 +1,36 @@
+@media (min-width: 768px), print {
+  .project {
+    padding: 0 10px
+  }
+}
+
+.project__name {
+  font-size: 24px;
+  margin: 0;
+  max-width: calc(100% - 20px);
+}
+
+@media print {
+  .project__name {
+    margin: 0;
+    padding: 0;
+    font-size: 20px
+  }
+}
+
+@media print {
+  .project__tags-label {
+    display: none
+  }
+}
+
+.project__description {
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  .project__description {
+    margin: 0
+  }
+}

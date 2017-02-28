@@ -1,0 +1,17 @@
+<div class="languages">
+    <dl class="languages__list">
+        {% for language in site.data.languages %}
+            <div class="languages__item">
+                <dt class="languages__key">
+                    <span>{{ language.name }}:</span>
+                </dt>
+                <dd class="languages__value">
+                    <span class="languages__level">{{ language.level }}</span>
+                    {% if language.description %}
+                        <span class="languages__description">({{ language.description }})</span>
+                    {% endif %}
+                </dd>
+            </div>
+        {% endfor %}
+    </dl>
+</div>

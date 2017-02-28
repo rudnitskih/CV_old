@@ -1,0 +1,33 @@
+-
+  name: Eda.ua
+  url: eda.ua
+  tags:
+  description: "Implementing an adaptive website version, supporting."
+- 
+  name: Astro.club
+  url: astro.club
+  description: "Creating markup and (Responsive website)."
+-
+  name: Fastimport
+  url: fastimport.ru
+  description: "Full stack development: creating markup, scripting, programming of back-end using WordPress, PHP, Jade2Php; integration with ArmoCRM (Responsive website)."
+-
+  name: Credit365
+  url: credit365.ua
+  description: "Managing front-end team, creating markup and scripting (Responsive website)."
+-
+  name: FTBN
+  url: ftbn.app.se7ensky.com
+  description: "Supporting markup, scripting (Responsive website)."
+- 
+  name: Landing for Union Standard Bank
+  url: usb-everyday.app.se7ensky.com
+  description: "Creating markup, scripting, integration with Facebook and VK API (Responsive website)."
+- 
+  name: Betonwood
+  url: beton-wood.com.ua
+  description: "Scripting, online store with database on Google Spreadsheets (Responsive website)."
+- 
+  name: Intimo
+  url: intimo.com.ua
+  description: "Creating markup and scripting (Responsive website)."
