@@ -1,0 +1,28 @@
+<div class="education">
+    <dl class="education__list" itemscope itemtype="http://schema.org/Person">
+        {% for university in site.data.education %}
+            <div class="education__item">
+                <div class="education__info education__info_years">
+                    <dt class="education__key">Years:</dt>
+                    <dd class="education__value">{{ university.duration }}</dd>
+                </div>
+                <div class="education__info">
+                    <dt class="education__key">Degree:</dt>
+                    <dd class="education__value">{{ university.degree }}</dd>
+                </div>
+                <div class="education__info">
+                    <dt class="education__key">Alma mater:</dt>
+                    <dd class="education__value">
+                        <a href="//{{ university.almamater.url }}"
+                           title="{{ university.almamater.url }}"
+                           target="_blank">{{university.almamater.name}}</a>
+                    </dd>
+                </div>
+                <div class="education__info">
+                    <dt class="education__key">Major:</dt>
+                    <dd class="education__value">{{ university.major }}</dd>
+                </div>
+            </div>
+        {% endfor %}
+    </dl>
+</div>

@@ -1,0 +1,54 @@
+.programming-skills__title {
+  margin: 0
+}
+
+@media (min-width: 768px), print {
+  .programming-skills__item {
+    margin: 5px 0
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .programming-skills__item {
+    margin: 10px 0
+  }
+}
+
+@media print {
+  .programming-skills__item {
+    margin: 0
+  }
+}
+
+.programming-skills__list {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+.programming-skills__sub-title {
+  color: #7f8c8d;
+}
+
+@media (min-width: 768px), print {
+  .programming-skills__sub-title {
+    width: 250px;
+    display: inline-block
+  }
+}
+
+.programming-skills__value {
+  display: inline-block;
+  margin: 0;
+  font-weight: normal
+}
+
+.programming-skills__type {
+  margin-bottom: 20px;
+}
+
+@media print {
+  .programming-skills__type {
+    margin-bottom: 5px
+  }
+}

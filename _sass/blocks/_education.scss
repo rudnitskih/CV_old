@@ -1,0 +1,25 @@
+.education {
+  &__item {
+    margin: 20px 0;
+  }
+
+  &__info {
+    display: flex;
+  }
+
+  &__key {
+    flex-basis: 110px;
+    color: #7f8c8d
+  }
+
+  &__value {
+    margin: 0;
+    flex: 1;
+  }
+
+  @media print {
+    .education__list {
+      margin: 0
+    }
+  }
+}

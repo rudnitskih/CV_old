@@ -1,0 +1,32 @@
+<div class="experience">
+    {% for item in site.data.experience %}
+        <div class="experience__item">
+            <div class="experience__column experience__column_left">
+                <div class="experience__duration">
+                    <span class="experience__label">Years:</span>
+                    <span class="experience__value">{{ item.duration }}</span>
+                </div>
+                <div class="experience__company">
+                    <span class="experience__label">Company:</span>
+                    {% if item.company.url %}
+                        <a href="//{{ item.company.url }}"
+                           title="{{ item.company.url }}"
+                           class="experience__value"
+                           target="_blank">{{ item.company.name }}</a>
+                    {% else %}
+                        <span class="experience__value">{{ item.company.name }}</span>
+                    {% endif %}
+                </div>
+                <div class="experience__position">
+                    <span class="experience__label">Position:</span>
+                    <span class="experience__value">{{ item.position }}</span>
+                </div>
+            </div>
+            <div class="experience__column experience__column_right">
+                <div class="experience__description">
+                    <p class="experience__value">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

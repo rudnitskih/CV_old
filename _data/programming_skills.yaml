@@ -1,0 +1,111 @@
+- 
+  name: Advanced
+  subcategories:
+    - 
+      name: Languages
+      values:
+        - JavaScript ES5/ES2016
+        - HTML5
+        - CSS3
+    - 
+      name: Preprocessors
+      values: 
+        - CoffeeScript
+        - Jade
+        - Stylus/Sass/Less
+    - 
+      name: "Frameworks/Libraries"
+      values: 
+        - Angular 1.X
+        - jQuery
+        - Bootstrap 3
+        - Lodash
+    - 
+      name: "Patterns/Methodologies"
+      values: 
+        - JavaScript Patterns
+        - Responsive Web Design
+        - BEM
+        - REST API
+    - 
+      name: OS
+      values:
+        - MacOS
+        - Linux
+        - Windows
+    - 
+      name: HTML5 API
+      values: 
+        - AJAX
+        - Promises
+        - Canvas
+        - File System 
+        - Media
+        - Web Storage
+        - HTML5 Forms
+    - 
+      name: "VCS"
+      values:
+        - Git
+        - Perforce
+    - 
+      name: Workflow
+      values: 
+        - Gulp
+        - Continuous Integration 
+        - Agile/Scrum
+        - Jira
+        - Asana
+        - Toggl
+- 
+  name: Essential
+  subcategories:
+    - 
+      name: Languages
+      values:
+        - PHP
+        - Bash
+    - 
+      name: Server
+      values:
+        - NodeJS
+        - ExpressJS
+        - MongoDB
+    - 
+      name: "Frameworks/Libraries"
+      values:
+        - Backbone
+        - MeteorJS
+        - Foundation
+    -
+      name: "Testing"
+      values:
+        - TDD
+        - Unit-testing
+        - Jasmine
+        - Karma
+        - Mocha
+        - Chai
+    - 
+      name: "Others"
+      values:
+        - Google API
+        - WordPress
+        - Grunt
+        - SVG
+        - UX
+- 
+  name: Familiarity
+  values:
+    - WebPack
+    - React
+    - SVG Animations
+    - PhantomJS
+    - SQL
+    - Python
+    - Java
+    - Scala
+    - C#
+    - Assembler
+    - AWS(ES2)
+    - Hadoop

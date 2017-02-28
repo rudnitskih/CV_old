@@ -1,0 +1,24 @@
+.projects {
+  display: flex;
+  flex-flow: row wrap;
+
+  @media (min-width: 768px), print {
+    margin: 0 -10px
+  }
+
+  &__disclaimer {
+    margin-bottom: 0;
+  }
+
+  .project {
+    margin: 10px 0;
+
+    @media (min-width: 768px), print {
+      flex-basis: 50%;
+    }
+
+    @media print {
+      margin: 0;
+    }
+  }
+}
