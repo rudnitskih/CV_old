@@ -31,7 +31,6 @@
       name: "Testing"
       values:
         - TDD
-        - Unit-testing
         - Jasmine
         - Karma
         - Mocha
