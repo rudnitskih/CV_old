@@ -2,13 +2,13 @@
   name: Advanced
   subcategories:
     - 
-      name: Languages
+      name: "Languages"
       values:
         - JavaScript ES5/ES2016
         - HTML5
         - CSS3
     - 
-      name: Preprocessors
+      name: "Preprocessors"
       values: 
         - CoffeeScript
         - Jade
@@ -27,14 +27,23 @@
         - Responsive Web Design
         - BEM
         - REST API
+    -
+      name: "Testing"
+      values:
+        - TDD
+        - Unit-testing
+        - Jasmine
+        - Karma
+        - Mocha
+        - Chai    
     - 
-      name: OS
+      name: "OS"
       values:
         - MacOS
         - Linux
         - Windows
     - 
-      name: HTML5 API
+      name: "HTML5 API"
       values: 
         - AJAX
         - Promises
@@ -49,7 +58,7 @@
         - Git
         - Perforce
     - 
-      name: Workflow
+      name: "Others"
       values: 
         - Gulp
         - Continuous Integration 
@@ -57,6 +66,7 @@
         - Jira
         - Asana
         - Toggl
+        - Rally
 - 
   name: Essential
   subcategories:
@@ -77,26 +87,18 @@
         - Backbone
         - MeteorJS
         - Foundation
-    -
-      name: "Testing"
-      values:
-        - TDD
-        - Unit-testing
-        - Jasmine
-        - Karma
-        - Mocha
-        - Chai
     - 
       name: "Others"
       values:
-        - Google API
         - WordPress
         - Grunt
         - SVG
         - UX
+        - Jekyll
 - 
   name: Familiarity
   values:
+    - TypeScript
     - WebPack
     - React
     - SVG Animations
@@ -109,3 +111,4 @@
     - Assembler
     - AWS(ES2)
     - Hadoop
+    - Machine Learning
