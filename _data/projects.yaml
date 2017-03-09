@@ -2,32 +2,41 @@
   name: Eda.ua
   url: eda.ua
   tags:
-  description: "Implementing an adaptive website version, supporting."
+  description: "Web-service for online order food. Implementing an adaptive website version, supporting."
+- 
+  name: ZaxidFest 2015
+  url: zaxidfest15.herokuapp.com
+  description: "Landing for annual international music and festival. Creating markup and scripting."
 - 
   name: Astro.club
   url: astro.club
-  description: "Creating markup, scripting."
+  description: "Web-service for looking astrologies. Creating markup, scripting."
 -
   name: Fastimport
   url: fastimport.ru
-  description: "Full stack development: creating markup, scripting, programming of back-end using WordPress, PHP, Jade2Php; integration with ArmoCRM."
+  description: "Corporate website. Full stack development: creating markup, scripting, back-end using WordPress, integration with ArmoCRM."
 -
   name: Credit365
   url: credit365.ua
-  description: "Managing front-end team, creating markup and scripting."
--
-  name: FTBN
-  url: ftbn.app.se7ensky.com
-  description: "Supporting markup, scripting."
-- 
-  name: Landing for Union Standard Bank
-  url: usb-everyday.app.se7ensky.com
-  description: "Creating markup, scripting, integration with Facebook and VK API."
-- 
-  name: Betonwood
-  url: beton-wood.com.ua
-  description: "Scripting, online store with database on Google Spreadsheets."
+  description: "Promo site. Managing front-end team, creating markup and scripting."
 - 
   name: Intimo
   url: intimo.com.ua
-  description: "Creating markup and scripting."
+  description: "Online store. Creating markup and scripting."
+-
+  name: FTBN
+  url: ftbn.app.se7ensky.com
+  description: "News website. Supporting markup, scripting."
+- 
+  name: Union Standard Bank
+  url: usb-everyday.app.se7ensky.com
+  description: "Landing for bank's service. Creating markup, scripting, integration with Facebook and VK API."
+- 
+  name: Betonwood
+  url: beton-wood.com.ua
+  description: "eCommerce Website. Scripting, online store with database on Google Spreadsheets."
+- 
+  name: Opayz
+  url: opayz.app.se7ensky.com/
+  description: "System for buying stocks. Supporting."
+
