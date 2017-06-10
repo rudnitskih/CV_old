@@ -27,3 +27,5 @@ google_analytics: UA-68863446-1
 exclude:
   - Gemfile
   - Gemfile.lock
+sass:
+  style: compressed
