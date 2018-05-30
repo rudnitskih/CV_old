@@ -7,8 +7,6 @@ items:
     value: "Kyiv, Ukraine"
   - key: "Mobile"
     value: "<a href='tel:+380636536215?call'>+38 (063) 65 36 215</a>"
-  - key: "Skype"
-    value: "<a href='skype:dmytro.rudnitskih?call'>dmytro.rudnitskih</a>"
   - key: "E-mail"
     value: "<a href='mailto:rudnitskih@gmail.com'>rudnitskih@gmail.com</a>"
   - key: "LinkedIn"
