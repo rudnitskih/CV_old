@@ -5,7 +5,6 @@
   }
 
   @media (min-width: 768px), print {
-    display: flex;
     margin-top: 50px;
   }
 
@@ -14,30 +13,18 @@
     margin-top: 0;
   }
 
-  &__column {
-    &_left {
-      flex-grow: 1;
-    }
-
-    &_right {
-      text-align: center;
-
-      @media (min-width: 768px), print {
-        position: relative;
-        flex-basis: 250px;
-      }
+  &__emoji {
+    @media print {
+      display: none;
     }
   }
 
-  &__photo {
-    max-width: 100%;
-    max-height: 100%;
+  &__details {
+    display: flex;
+  }
 
-    @media (min-width: 768px), print {
-      position: absolute;
-      top: 0;
-      right: 0;
-    }
+  &__list {
+    margin: 20px 0 0;
   }
 
   &__item {
@@ -68,7 +55,6 @@
   &__links {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -15px;
 
     @media print {
       display: none

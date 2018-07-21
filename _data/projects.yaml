@@ -1,20 +1,15 @@
 -
+  name: Wix.com
+  url: wix.com
+  description: "Developing Premium Services of Wix.com. Full frontend work and some NodeJS to aggregate backend data."
+-
   name: Eda.ua
   url: eda.ua
-  tags:
   description: "Web-service for online order food. Implementing an adaptive website version, supporting."
 - 
   name: ZaxidFest 2015
-  url: web.archive.org/web/20150914165508/http://zaxidfest.com/
+  url: http://web.archive.org/web/20150915112320/http://zaxidfest.com/
   description: "Landing for annual international music and festival. Creating markup and scripting."
-- 
-  name: Astro.club
-  url: astro.club
-  description: "Web-service for looking astrologies. Creating markup, scripting."
--
-  name: Fastimport
-  url: fastimport.ru
-  description: "Corporate website. Full stack development: creating markup, scripting, back-end using WordPress, integration with ArmoCRM."
 -
   name: Credit365
   url: credit365.ua
@@ -27,6 +22,10 @@
   name: FTBN
   url: ftbn.app.se7ensky.com
   description: "News website. Supporting markup, scripting."
+-
+  name: Fastimport
+  url: fastimport.ru
+  description: "Corporate website. Full stack development: creating markup, scripting, back-end using WordPress, integration with ArmoCRM."
 - 
   name: Union Standard Bank
   url: usb-everyday.app.se7ensky.com

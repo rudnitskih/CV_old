@@ -1,12 +1,19 @@
-- duration: 2015 - now
+- duration: 2017 - now
+  company:
+    name: Wix.com
+    url: wix.com
+  position: "Frontend Developer"
+  description: "Wix provides a website building platform to over 130 million users in 190 countries. I am Frontend Developer in Premium services. I do all frontend routine - understanding business pains, helping find a solution and implementing them in interfaces. The main technologies are React, TypeScript, MobX and WebPack."
+
+- duration: 2015 - 2017
   company:
     name: GlobalLogic Ukraine
     url: globallogic.com
-  position: "Software Engineer, AngularJS developer"
-  description: "I am working on American technology company`s project. This company produces software and services that assist businesses in moving to digital operations. My responsibilities include writing businesses logic on UI, creating markup by design mockups, communicating with international back-end and UX teams to implement features, writing unit-tests. The main framework is AngularJS and some BackboneJS"
+  position: "Frontend Developer"
+  description: "I worked in outsource company on B2B software company. My responsibilities included writing businesses logic on UI, creating markup by design mockups, developing product together with international back-end and UX teams, writing unit-tests. The main framework was AngularJS and some BackboneJS."
 - duration: 2014 - 2015
   company:
-    name: Se7ensky art studio
+    name: Se7ensky web studio
     url: se7ensky.com
-  position: "Frontend, JS developer"
-  description: "My responsibilities included full front-end work: creating markup, scripting, optimization, supporting, manual testing. Sometimes I created back-end using PHP, WordPress and Jade2Php plugin. Main stack was Jade/Stylus/CoffeeScript and BEM."
+  position: "Web Developer"
+  description: "My responsibilities included different web-development tasks: creating markup, JS scripting, creating backend using PHP, WordPress and Jade2Php plugin. Main stack was Jade/Stylus/CoffeeScript and BEM."

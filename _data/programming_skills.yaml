@@ -5,20 +5,23 @@
       name: "Languages"
       values:
         - JavaScript ES5/ES2016
-        - HTML5
-        - CSS3
+        - HTML
+        - CSS
     - 
       name: "Preprocessors"
-      values: 
+      values:
+        - TypeScript
         - CoffeeScript
         - Jade
         - Stylus/Sass/Less
     - 
       name: "Frameworks/Libraries"
       values: 
+        - React
+        - MobX
         - Angular 1.X
         - jQuery
-        - Bootstrap 3
+        - Bootstrap
         - Lodash
     - 
       name: "Patterns/Methodologies"
@@ -31,26 +34,8 @@
       name: "Testing"
       values:
         - TDD
-        - Jasmine
-        - Karma
-        - Mocha
-        - Chai    
-    - 
-      name: "OS"
-      values:
-        - MacOS
-        - Linux
-        - Windows
-    - 
-      name: "HTML5 API"
-      values: 
-        - AJAX
-        - Promises
-        - Canvas
-        - File System 
-        - Media
-        - Web Storage
-        - HTML5 Forms
+        - unit testing
+        - e2e testing
     - 
       name: "VCS"
       values:
@@ -58,58 +43,47 @@
         - Perforce
     - 
       name: "Others"
-      values: 
+      values:
         - Gulp
+        - Jekyll
         - Continuous Integration 
         - Agile/Scrum
         - Jira
-        - Asana
-        - Toggl
-        - Rally
 - 
   name: Essential
   subcategories:
-    - 
-      name: Languages
-      values:
-        - PHP
-        - Bash
-    - 
+    -
       name: Server
       values:
         - NodeJS
         - ExpressJS
         - MongoDB
+        - Java
     - 
       name: "Frameworks/Libraries"
       values:
         - Backbone
         - MeteorJS
-        - Foundation
-    - 
+        - Spring
+    -
       name: "Others"
       values:
-        - WordPress
+        - WebPack
         - Grunt
-        - SVG
+        - WordPress
         - UX
-        - Jekyll
-- 
+-
   name: Familiarity
   values:
-    - TypeScript
-    - Angular 2
-    - WebPack
-    - React
-    - SVG Animations
-    - PhantomJS
-    - SQL
-    - Python
-    - Java
-    - Spring
+    - PHP
     - Scala
+    - C++
+    - Python
+    - Bash
     - C#
     - Assembler
+    - Angular 2
+    - SQL
     - AWS(ES2)
     - Hadoop
-    - Machine Learning
+    - Data Science

@@ -1,37 +1,31 @@
 {% assign mainInfo = site.data.main_info %}
 
 <div class="main-info">
-    <div class="main-info__column main-info__column_left">
-        <hgroup class="main-info__titles">
-            <h1 class="main-info__title" itemprop="name">{{ mainInfo.name }}</h1>
-            <h2 class="main-info__subtitle" itemprop="jobTitle">{{ mainInfo.position }}</h2>
-        </hgroup>
+    <h1 class="main-info__title" itemprop="name">{{ mainInfo.name }}</h1>
 
-        <dl class="main-info__list">
-            {% for item in {{mainInfo.items}} %}
-                <div class="main-info__item">
-                    <dt class="main-info__label">{{ item.key }}:</dt>
-                    <dd class="main-info__value">{{ item.value }}</dd>
-                </div>
-            {% endfor %}
-        </dl>
+    <h2 class="main-info__subtitle" itemprop="jobTitle">
+        {{ mainInfo.position }}
+        <span class="main-info__emoji">👨‍💻</span>
+    </h2>
 
-        <div class="main-info__links">
-            {% for link in {{site.data.links}} %}
-                <a href="{{ link.url }}"
-                   itemprop="url"
-                   class="main-info__link"
-                   target="{{ link.target }}">
-                    <span class="main-info__link-icon icon-{{ link.icon }}"></span>
-                    <span class="main-info__link-text">{{ link.title }}</span>
-                </a>
-            {% endfor %}
+    <dl class="main-info__list">
+        {% for item in {{mainInfo.items}} %}
+        <div class="main-info__item">
+            <dt class="main-info__label">{{ item.key }}:</dt>
+            <dd class="main-info__value">{{ item.value }}</dd>
         </div>
-    </div>
-    <div class="main-info__column main-info__column_right">
-        <img itemprop="image"
-             src="{{ mainInfo.photo | relative_url }}"
-             alt="CV_Photo"
-             class="main-info__photo">
+        {% endfor %}
+    </dl>
+
+    <div class="main-info__links">
+        {% for link in {{site.data.links}} %}
+        <a href="{{ link.url }}"
+           itemprop="url"
+           class="main-info__link"
+           target="{{ link.target }}">
+            <span class="main-info__link-icon icon-{{ link.icon }}"></span>
+            <span class="main-info__link-text">{{ link.title }}</span>
+        </a>
+        {% endfor %}
     </div>
 </div>

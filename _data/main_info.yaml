@@ -1,8 +1,6 @@
 name: Dmytro Rudnytskykh
 position: Front-end, JS Developer
 items:
-  - key: "Age"
-    value: "23 years"
   - key: "Location"
     value: "Kyiv, Ukraine"
   - key: "Mobile"
@@ -11,4 +9,3 @@ items:
     value: "<a href='mailto:rudnitskih@gmail.com'>rudnitskih@gmail.com</a>"
   - key: "LinkedIn"
     value: "<a href='//ua.linkedin.com/in/rudnitskih' target='_blank'>Dmytro Rudnytskykh</a>"
-photo: "assets/images/photo.jpg"

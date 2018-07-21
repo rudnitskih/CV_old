@@ -27,12 +27,12 @@ a {
 }
 
 a:hover, a:focus {
-  color: #006daa
+  color: #006daa;
 }
 
 @media print {
   a {
-    color: inherit
+    color: inherit;
   }
 }
 
@@ -58,17 +58,17 @@ a[href^="http"] {
 
 @media print {
   a[href*="//"]:after {
-    content: ''
+    content: '';
   }
 }
 
 @media print {
   h1, .h1 {
     font-size: 25px;
-    margin: 0
   }
+
   h2, .h2 {
-    font-size: 20px
+    font-size: 20px;
   }
 }
 
@@ -78,7 +78,7 @@ a[href^="http"] {
 
 @media print {
   .visible-print {
-    display: block
+    display: block;
   }
 }
 
@@ -94,30 +94,30 @@ a[href^="http"] {
 
 @media (min-width: 768px) and (max-width: 1023px), print {
   .container {
-    width: 708px
+    width: 708px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .container {
-    margin: 0 10px
+    margin: 0 10px;
   }
 }
 
 @media (min-width: 768px), print {
   .separator {
-    margin-top: 30px
+    margin-top: 30px;
   }
 }
 
 @media print {
   .separator {
-    margin-top: 5px
+    margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .hidden-phone {
-    display: none
+    display: none;
   }
 }

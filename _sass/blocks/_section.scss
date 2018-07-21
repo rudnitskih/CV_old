@@ -1,4 +1,8 @@
 .section {
+  @media print {
+    page-break-inside: avoid;
+  }
+
   &__title {
     position: relative;
   }
