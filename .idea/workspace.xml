@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="854517be-f0bc-4963-a129-656953617c76" name="Default" comment="Add CNAME">
+    <list default="true" id="854517be-f0bc-4963-a129-656953617c76" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/site.webmanifest" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_data/education.yaml" afterPath="$PROJECT_DIR$/_data/education.yaml" />
-      <change beforePath="$PROJECT_DIR$/_data/experience.yaml" afterPath="$PROJECT_DIR$/_data/experience.yaml" />
-      <change beforePath="$PROJECT_DIR$/_data/languages.yaml" afterPath="$PROJECT_DIR$/_data/languages.yaml" />
-      <change beforePath="$PROJECT_DIR$/_data/main_info.yaml" afterPath="$PROJECT_DIR$/_data/main_info.yaml" />
-      <change beforePath="$PROJECT_DIR$/_data/programming_skills.yaml" afterPath="$PROJECT_DIR$/_data/programming_skills.yaml" />
-      <change beforePath="$PROJECT_DIR$/_data/projects.yaml" afterPath="$PROJECT_DIR$/_data/projects.yaml" />
-      <change beforePath="$PROJECT_DIR$/_data/soft_skills.yaml" afterPath="$PROJECT_DIR$/_data/soft_skills.yaml" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_includes/main-info.html" afterPath="$PROJECT_DIR$/_includes/main-info.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/projects.html" afterPath="$PROJECT_DIR$/_includes/projects.html" />
       <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_sass/_general.scss" afterPath="$PROJECT_DIR$/_sass/_general.scss" />
-      <change beforePath="$PROJECT_DIR$/_sass/blocks/_experience.scss" afterPath="$PROJECT_DIR$/_sass/blocks/_experience.scss" />
-      <change beforePath="$PROJECT_DIR$/_sass/blocks/_main-info.scss" afterPath="$PROJECT_DIR$/_sass/blocks/_main-info.scss" />
-      <change beforePath="$PROJECT_DIR$/_sass/blocks/_programming-skills.scss" afterPath="$PROJECT_DIR$/_sass/blocks/_programming-skills.scss" />
-      <change beforePath="$PROJECT_DIR$/_sass/blocks/_section.scss" afterPath="$PROJECT_DIR$/_sass/blocks/_section.scss" />
-      <change beforePath="$PROJECT_DIR$/_sass/blocks/_summary.scss" afterPath="$PROJECT_DIR$/_sass/blocks/_summary.scss" />
-      <change beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/index.md" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/android-chrome-192x192.png" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-192x192.png" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/android-chrome-512x512.png" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-512x512.png" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/apple-touch-icon.png" afterPath="$PROJECT_DIR$/assets/favicons/apple-touch-icon.png" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/favicon-16x16.png" afterPath="$PROJECT_DIR$/assets/favicons/favicon-16x16.png" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/favicon-32x32.png" afterPath="$PROJECT_DIR$/assets/favicons/favicon-32x32.png" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/favicon.ico" afterPath="$PROJECT_DIR$/assets/favicons/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-144x144.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-150x150.png" afterPath="$PROJECT_DIR$/assets/favicons/mstile-150x150.png" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-310x150.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-310x310.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-70x70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/safari-pinned-tab.svg" afterPath="$PROJECT_DIR$/assets/favicons/safari-pinned-tab.svg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,21 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="soft_skills.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/soft_skills.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="236">
+              <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -63,8 +47,18 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_info.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/main_info.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,6 +83,7 @@
       <find>sep</find>
       <find>su</find>
       <find>__item</find>
+      <find>email</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -118,7 +113,6 @@
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_sass/blocks/_section.scss" />
         <option value="$PROJECT_DIR$/_sass/blocks/_main-info.scss" />
         <option value="$PROJECT_DIR$/_sass/_general.scss" />
@@ -128,6 +122,7 @@
         <option value="$PROJECT_DIR$/_data/education.yaml" />
         <option value="$PROJECT_DIR$/_sass/blocks/_experience.scss" />
         <option value="$PROJECT_DIR$/_data/soft_skills.yaml" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
@@ -188,13 +183,13 @@
             <path>
               <item name="CV" type="b2602c69:ProjectViewProjectNode" />
               <item name="CV" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CV" type="b2602c69:ProjectViewProjectNode" />
               <item name="CV" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="favicons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,6 +208,11 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="desc&#9;FILE&#9;file:///Users/dmytror/p/CV/.git/description" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/favicons" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -307,7 +307,7 @@
       <workItem from="1488272823781" duration="2330000" />
       <workItem from="1529850737127" duration="2535000" />
       <workItem from="1530380590143" duration="684000" />
-      <workItem from="1532176667974" duration="9430000" />
+      <workItem from="1532176667974" duration="10350000" />
     </task>
     <task id="LOCAL-00001" summary="Add CNAME">
       <created>1488273260312</created>
@@ -316,17 +316,24 @@
       <option name="project" value="LOCAL" />
       <updated>1488273260312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix data and some styles.&#10;&#10;Remove photo:(">
+      <created>1532207513857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532207513857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29716000" />
+    <option name="totallyTimeSpent" value="30636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21775898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21705426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
@@ -334,7 +341,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28516623" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28516623" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -372,20 +379,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add CNAME" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add CNAME" />
+    <MESSAGE value="Fix data and some styles.&#10;&#10;Remove photo:(" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix data and some styles.&#10;&#10;Remove photo:(" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/blocks/projects/projects.styl" />
-    <entry file="file://$PROJECT_DIR$/src/blocks/main-info/main-info.styl" />
-    <entry file="file://$PROJECT_DIR$/src/blocks/education/education.styl" />
-    <entry file="file://$PROJECT_DIR$/src/blocks/experience/experience.styl" />
-    <entry file="file://$PROJECT_DIR$/src/globals/variables.styl" />
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/icons.css" />
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/helpers.styl" />
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/node_modules/nib/lib/nib/normalize/index.styl" />
     <entry file="file://$PROJECT_DIR$/src/assets/styles/general.styl" />
@@ -508,14 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/main_info.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -662,7 +655,7 @@
     <entry file="file://$PROJECT_DIR$/_data/soft_skills.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -683,18 +676,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/favicons/mstile-70x70.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/favicons/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/favicons/mstile-310x310.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/favicons/android-chrome-512x512.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/favicons/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/favicons/favicon-16x16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/favicons/favicon-32x32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/main_info.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="236">
+          <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
           <folding />
         </state>
       </provider>
