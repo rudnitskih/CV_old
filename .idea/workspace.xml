@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="854517be-f0bc-4963-a129-656953617c76" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/site.webmanifest" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/android-chrome-192x192.png" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-192x192.png" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/android-chrome-512x512.png" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-512x512.png" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/apple-touch-icon.png" afterPath="$PROJECT_DIR$/assets/favicons/apple-touch-icon.png" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/favicon-16x16.png" afterPath="$PROJECT_DIR$/assets/favicons/favicon-16x16.png" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/favicon-32x32.png" afterPath="$PROJECT_DIR$/assets/favicons/favicon-32x32.png" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/favicon.ico" afterPath="$PROJECT_DIR$/assets/favicons/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-144x144.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-150x150.png" afterPath="$PROJECT_DIR$/assets/favicons/mstile-150x150.png" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-310x150.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-310x310.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/mstile-70x70.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/favicons/safari-pinned-tab.svg" afterPath="$PROJECT_DIR$/assets/favicons/safari-pinned-tab.svg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +33,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+            <state relative-caret-position="285">
+              <caret line="17" column="304" lean-forward="true" selection-start-line="17" selection-start-column="304" selection-end-line="17" selection-end-column="304" />
               <folding />
             </state>
           </provider>
@@ -58,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/_data/main_info.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -307,7 +293,7 @@
       <workItem from="1488272823781" duration="2330000" />
       <workItem from="1529850737127" duration="2535000" />
       <workItem from="1530380590143" duration="684000" />
-      <workItem from="1532176667974" duration="10350000" />
+      <workItem from="1532176667974" duration="10393000" />
     </task>
     <task id="LOCAL-00001" summary="Add CNAME">
       <created>1488273260312</created>
@@ -323,11 +309,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532207513857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update favicon">
+      <created>1532208762437</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532208762437</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30636000" />
+    <option name="totallyTimeSpent" value="30679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -380,7 +373,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add CNAME" />
     <MESSAGE value="Fix data and some styles.&#10;&#10;Remove photo:(" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix data and some styles.&#10;&#10;Remove photo:(" />
+    <MESSAGE value="Update favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update favicon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -717,7 +711,7 @@
     <entry file="file://$PROJECT_DIR$/_data/main_info.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -732,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="285">
+          <caret line="17" column="304" lean-forward="true" selection-start-line="17" selection-start-column="304" selection-end-line="17" selection-end-column="304" />
           <folding />
         </state>
       </provider>
