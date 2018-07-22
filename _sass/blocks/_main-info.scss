@@ -13,12 +13,6 @@
     margin-top: 0;
   }
 
-  &__emoji {
-    @media print {
-      display: none;
-    }
-  }
-
   &__details {
     display: flex;
   }
