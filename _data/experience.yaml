@@ -5,6 +5,13 @@
   position: "Frontend Developer"
   description: "Wix provides a website building platform to over 130 million users in 190 countries. I am Frontend Developer in Premium services. I do all frontend routine - understanding business pains, helping find a solution and implementing them in interfaces. The main technologies are React, TypeScript, MobX and WebPack."
 
+- duration: 2018 - now
+  company:
+    name: Mate Academy
+    url: mate.academy/ua/courses/frontend
+  position: "Frontend Coach"
+  description: "I am teaching newbies how to be best Frontend Developers. Tell about all frontend aspects - HTML, CSS, Semantic, Effective Layout, Responsive Design, JS, DOM, Async Programming and so on."
+  
 - duration: 2015 - 2017
   company:
     name: GlobalLogic Ukraine
