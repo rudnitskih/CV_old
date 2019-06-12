@@ -4,7 +4,7 @@
     - 
       name: "Languages"
       values:
-        - JavaScript ES5/ES2016
+        - JavaScript ES2015+
         - HTML
         - CSS
     - 
