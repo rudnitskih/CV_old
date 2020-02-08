@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: CV | Dmytro Rudnytskykh
 description: > # this means to ignore newlines until "baseurl:"
-  Frontend developer with 4 years experience. I love to create stunning user-friendly interfaces, write maintainable code and help business create effective solutions. Have experience writing difficult business logic on UI, writing tests, creating and supporting markup with 100 and more pages, advanced experience in responsive design, working in a big multinational team.
+  Frontend developer with 4 years experience. I love to create stunning user-friendly interfaces, write maintainable code and help business create effective solutions. Have experience implementing complex UI business logic, writing tests, creating and supporting markup with 100 and more pages, advanced experience in responsive design, working in a big multinational team.
 baseurl: ""
 url: "http://rudnitskih.pp.ua" # the base hostname & protocol for your site, e.g. http://example.com
 
